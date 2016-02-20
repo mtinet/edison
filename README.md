@@ -4,10 +4,10 @@
 
 1. USB 케이블을 에디슨 보드의 FTDI 포트에 연결한다.  FTDI포트는 에디슨 보드의 Micro USB 소켓 앞부분에 새끼 손톱만 한 칩이 붙어 있는 포트이다. 
 2. 맥북의 터미널을 연다. 아래 명령을 통해 설정된 시리얼 포트를 확인할 수 있으나, 여기서는 Bloop을 사용하여 더 편하게 접속할 수 있는 방법을 시연한다. 
-  # ls /dev/cu.usbserial-*  
+   # ls /dev/cu.usbserial-*  
   /dev/cu.usbserial-A103KJQL
 
-  # screen /dev/xx.usbserial-A103KJQL 115200 –L  
+   # screen /dev/xx.usbserial-A103KJQL 115200 –L  
   이미 에디슨이 부팅 완료가 되었을 경우 빈화면이 나올 수 있는데, 그 때는 엔터키를 한 번 눌러주면 계정 로그인 화면이 나온다. 
   
 
