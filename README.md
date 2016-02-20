@@ -5,7 +5,7 @@
 1. USB 케이블을 에디슨 보드의 FTDI 포트에 연결한다.  FTDI포트는 에디슨 보드의 Micro USB 소켓 앞부분에 새끼 손톱만 한 칩이 붙어 있는 포트이다. 
 2. 맥북의 터미널을 연다.
 3. Bloop을 설치한다.   
-- # sudo npm install -g bloop
+-- # sudo npm install -g bloop
 4. Bloop의 기본적인 사용 명령어는 다음과 같다. 우리는 SSH를 사용할 것이므로 그냥 bloop ssh 라고 명령하면 자동으로 에디슨 보드에 SSH로 접속해준다. 
 - bloop c - 시리얼포트로 콘솔에 연결해준다. 'screen /dev/cu.usbserial.XXXXX 115200 -L'과 동일한 기능을 함
 - bloop list - USB serial을 통해 연결되어 있는 에디슨 보드 목록을 출력한다.
