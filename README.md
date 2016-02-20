@@ -14,8 +14,8 @@
   - bloop push - 현재 디렉토리의 내용을 에디슨의 ~/node_app_slot/ 디렉토리에 복사한다. 여기도 bloop ssh와 동일하게 '-e', '-u' 옵션을 사용할 수 있다.  
   - bloop clean - bloop c를 사용하는 경우 screen프로세스가 떨어져 재접속 하려고 할 때 "Could not find a PTY"나 "Resource Busy" 에러가 나는 경우가 있다. 이럴때 bloop clean 명령을 내리면 떨어져 나간 세션을 전부 삭제해 bloop c로 다시 접속할 수 있게 해 준다. 또는  'bloop c -f' 명령을 내리면 bloop clean + bloop c 와 같은 효과를 낸다.  
 5. WiFi를 세팅한다
-  - WiFi만 세팅할 때 
+  - WiFi만 세팅할 때  
   # configure_edison --wifi
-  - 유저 이름, 비밀번호, WiFi를 세팅할 때
+  - 유저 이름, 비밀번호, WiFi를 세팅할 때  
   # configure_edison --setup
 6. 
