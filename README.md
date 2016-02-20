@@ -3,7 +3,6 @@
 --
 
 1. USB 케이블을 에디슨 보드의 FTDI 포트에 연결한다.  FTDI포트는 에디슨 보드의 Micro USB 소켓 앞부분에 새끼 손톱만 한 칩이 붙어 있는 포트이다. 
-2. 
 2. 맥북의 터미널을 연다.
 3. Bloop을 설치한다.   
      # sudo npm install -g bloop
