@@ -43,18 +43,18 @@ Bluetooth 세팅
 -- 
 1. 에디슨 보드의 기본 세팅이 완료된 후 시리얼 통신이나 SSH통신으로 에디슨에 접속한다. 
 2. 블루투스의 Block을 풀어줘야 블루투스 모듈을 사용할 수 있다. 먼저 리스트를 확인한다. 기본세팅은 Soft Block으로 설정되어 있다.   
-  #  rfkill list
+  #  rfkill list  
 3. 블루투스의 Block을 해제한 다음 리스트를 다시 확인해서 제대로 해제 되었는지 확인한다.    
-  # rfkill unblock bluetooth
-  # rfkill list
+  # rfkill unblock bluetooth  
+  # rfkill list  
 4. 블루투스 컨트롤 쉘로 들어간 다음 에이전트를 기본세팅으로 설정한다.  
-  # bluetoothctl
-  # agent KeyboardDisplay
-  # default-agent
+  # bluetoothctl  
+  # agent KeyboardDisplay  
+  # default-agent  
 5. 주변의 블루투스 모듈을 검색한다.  
-  # scan on
+  # scan on  
 6. 검색된 블루투스 모듈과 연결(pairing)한다.  
-  # pair 맥주소
+  # pair 맥주소  
 
 
 
