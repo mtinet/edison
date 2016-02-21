@@ -53,8 +53,10 @@ Bluetooth 세팅
   # default-agent  
 5. 주변의 블루투스 모듈을 검색한다.  
   # scan on  
-6. 검색된 블루투스 모듈과 연결(pairing)한다.  
+6. 검색된 블루투스 모듈과 pairing한다.  
   # pair 맥주소  
+7. 페어링된 블루투스 모듈에 connect한다.  
+  # connect 맥주소
 
 
 
